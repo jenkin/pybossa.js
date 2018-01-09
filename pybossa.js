@@ -170,7 +170,7 @@
                     else {
                         nextUrl = '/project/' + projectname + '/task/' + task.id;
                     }
-                    history.pushState({}, "Title", nextUrl);
+                    //history.pushState({}, "Title", nextUrl);
                 }
                 _presentTask(task, taskSolved);
                 $.when(nextLoaded, taskSolved).done(loop);
